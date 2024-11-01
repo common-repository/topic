@@ -1,0 +1,52 @@
+.react-select__input{
+	box-shadow:  none !important;
+}
+
+.MuiPopover-root, .MuiTooltip-popper{
+	z-index: 99999 !important;
+}
+
+.topic-plugin-modal{
+	position:  absolute !important;
+}
+
+.topic-plugin-modal-container{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.topic-plugin-modal-container .MuiFormLabel-root{
+	z-index: 9 !important;
+}
+
+.topic-plugin-modal-container .MuiInput-input{
+	border:  none !important;
+}
+
+.topic-plugin-modal-content{
+    padding: 20px 16px;
+    margin: 13px;
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 16px;
+    position:  relative;
+}
+
+.topic-plugin-modal-close{
+	position: absolute;
+    top: 6px;
+    right: 6px;
+    opacity: .5;
+    font-size: 20px !important;
+    cursor: pointer;
+    z-index: 9;
+}
+
+
+
+.topic-noscroll{
+	overflow: hidden !important;
+}
+
